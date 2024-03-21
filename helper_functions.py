@@ -2,7 +2,6 @@ from sklearn.metrics import *
 from mlxtend.plotting import plot_confusion_matrix 
 from mlxtend.evaluate import confusion_matrix
 import matplotlib.pyplot as plt
-import numpy as np
 
 def classification_metrics(y_test, y_pred):
 
